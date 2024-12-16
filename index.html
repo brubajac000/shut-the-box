@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHUT THE BOX </title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="./game.js" defer></script>
+    </head>
+    <body>
+        <h1 class="name">SHUT THE BOX</h1>
+        <div id="face">
+            <div class="user-input">
+                <input type="text" id="player1Input" autofocus autocomplete="off">
+                <div class="player2box">
+                <input type="text" id="player2Input" autofocus autocomplete="off">
+
+                </div>
+                <button class="startBtn">Start</button>
+            </div>
+        </div>
+        <div>
+<div id="gamePlay">
+    <div class=info>
+        <div id="roundcounter">Round 1</div>
+        <div class="whosTurn">Name</div>
+    </div>
+    <div class="boxes">
+        <div class="box p" id="box1">
+            <p>1</p>
+        </div>
+        <div class="box p" id="box2">
+            <p>2</p>
+        </div>
+        <div  class="box p"  id="box3">
+            <p>3</p>
+        </div>
+        <div class="box p"  id="box4">
+            <p>4</p>
+        </div>
+        <div class="box p"  id="box5">
+            <p>5</p>
+        </div>
+        <div class="box p" id="box6">
+            <p>6</p>
+        </div>
+        <div class="box p" id="box7">
+            <p>7</p>
+        </div>
+        <div class="box p" id="box8">
+            <p>8</p>
+        </div>
+        <div class="box p" id="box9">
+            <p>9</p>
+        </div>
+    </div>
+</div>
+
+</div>
+        <div id=select>
+            <div id="dice">
+                <div class="dice1"></div>
+                <div class="dice2"></div>
+            </div>
+
+                <div class="select-buttons">
+                    <button class="rollBtn">Roll</button>
+                    <button class="individualBtn">Individual</button>
+                    <button class="sumBtn">Sum</button>
+                    <button class="endTurnBtn">End Turn</button>
+                </div>
+                <div id="scorecard">
+
+                <h1 class="sTitile, name">ScoreCard</h1>
+                <table id="scoreCard">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th id="p1name"></th>
+                            <th id="p2name"></th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <!-- this will be our scoreCard-->
+                        </tbody>
+                </table>
+
+
+            </div>
+        </div>
+        <div id="winner" class="winner">
+            <h2>Game Over</h2>
+            <p id="winnermsg"></p>
+            <p id="p1win"></p>
+            <p id="p2win"></p>
+            <button id="playAgainBtn">Play Again</button>
+        </div>
+
+    </body>
+    </html>
+

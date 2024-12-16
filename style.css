@@ -1,0 +1,115 @@
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
+body{background-color:#89CFF0;}
+.name{
+    font-size:5rem;
+    margin:8rem;
+    text-align:center;
+}
+#face{
+    text-align:center;
+    margin:10rem 0 20rem;
+
+}
+.player2box{
+margin:5rem;
+}
+.select-buttons{display:flex;
+flex-wrap:wrap;
+justify-content:center;
+text-align:center;
+gap:5rem;
+}
+.info{display:flex;
+gap:80%;
+font-size:3rem;
+}
+.boxes{
+    gap:3px;
+    margin:1rem;
+    height:8rem;
+    display:grid;
+    grid-template-columns:repeat(9,1fr);
+    grid-template-areas:"b1 b2  b3  b4 b5 b6 b7 b8 b9"
+
+
+
+}
+#box1{
+    border-color:black;
+    border:solid;
+    grid-area:b1;
+
+}
+#box2{
+    border-color:black;
+    border:solid;
+    grid-area:b2;
+}
+#box3{
+    border-color:black;
+    border:solid;
+    grid-area:b3;
+}
+#box4{
+    border-color:black;
+    border:solid;
+    grid-area:b4;
+}
+#box5{
+    border-color:black;
+    border:solid;
+    grid-area:b5;
+}
+#box6{
+    border-color:black;
+    border:solid;
+    grid-area:b6;
+}
+#box7{
+    border-color:black;
+    border:solid;
+    grid-area:b7;
+
+}
+#box8{
+    border-color:black;
+    border:solid;
+    grid-area:b8;
+}
+#box9{
+    border-color:black;
+    border:solid;
+    grid-area:b9;
+}
+#dice{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    font-size:50px;
+}
+#gamePlay{display:none;}
+#select{display:none;}
+#scorecard{display:none;
+    justify-content:center;
+text-align;center;
+font-size:30px;}
+#scoreCard{margin-left:45%;}
+
+.shut{background-color:red;
+font-color:white;
+border-color:#8B0000;}
+#winner{
+    display:none;
+    text-align:center;
+font-size: 5rem;}
+.p{place-items:center;
+font-size:2rem;}
